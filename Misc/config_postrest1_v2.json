@@ -1,0 +1,50 @@
+  {
+   "descriptions": [
+      {
+         "dataType": "func",
+         "modalityLabel": "bold",
+         "customLabels": "task-postrest1",
+         "criteria": {
+            "SeriesDescription": "ge_func_3x3x3_post_1"
+         },
+         "sidecarChanges": {
+            "TaskName": "postrest1"
+         }
+      },
+      {
+         "dataType": "fmap",
+         "modalityLabel": "run-02_magnitude1",
+         "IntendedFor": [0],
+         "criteria": {
+            "SeriesDescription": "field_mapping_3iso_post1",
+            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+            "EchoNumber": 1,
+            "EchoTime": 0.00492
+         }
+      },
+      {
+         "dataType": "fmap",
+         "modalityLabel": "run-02_magnitude2",
+         "IntendedFor": [0],
+         "criteria": {
+            "SeriesDescription": "field_mapping_3iso_post1",
+            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+            "EchoNumber": 2,
+            "EchoTime": 0.00738
+         }
+      },
+      {
+         "dataType": "fmap",
+         "modalityLabel": "run-02_phasediff",
+         "IntendedFor": [0],
+         "criteria": {
+            "SeriesDescription": "field_mapping_3iso_post1",
+            "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"]
+         },
+         "sidecarChanges": {
+            "EchoTime1": 0.00492,
+            "EchoTime2": 0.00738
+         }
+      }
+   ]
+}

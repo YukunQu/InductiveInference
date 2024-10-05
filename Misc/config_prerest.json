@@ -1,0 +1,50 @@
+  {
+   "descriptions": [
+      {
+         "dataType": "func",
+         "modalityLabel": "bold",
+         "customLabels": "task-prerest",
+         "criteria": {
+            "SeriesDescription": "ge_func_3x3x3_A_PA"
+         },
+         "sidecarChanges": {
+            "TaskName": "prerest"
+         }
+      },
+      {
+         "dataType": "fmap",
+         "modalityLabel": "run-01_magnitude1",
+         "IntendedFor": [0],
+         "criteria": {
+            "SeriesDescription": "field_mapping_3iso_PA",
+            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+            "EchoNumber": 1,
+            "EchoTime": 0.00492
+         }
+      },
+      {
+         "dataType": "fmap",
+         "modalityLabel": "run-01_magnitude2",
+         "IntendedFor": [0],
+         "criteria": {
+            "SeriesDescription": "field_mapping_3iso_PA",
+            "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+            "EchoNumber": 2,
+            "EchoTime": 0.00738
+         }
+      },
+      {
+         "dataType": "fmap",
+         "modalityLabel": "run-01_phasediff",
+         "IntendedFor": [0],
+         "criteria": {
+            "SeriesDescription": "field_mapping_3iso_PA",
+            "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"]
+         },
+         "sidecarChanges": {
+            "EchoTime1": 0.00492,
+            "EchoTime2": 0.00738
+         }
+      }
+   ]
+}

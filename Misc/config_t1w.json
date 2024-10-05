@@ -1,0 +1,11 @@
+  {
+   "descriptions": [
+      {
+         "dataType": "anat",
+         "modalityLabel": "T1w",
+         "criteria": {
+            "SeriesDescription": "t1_mprage_sag_144"
+         }
+      }
+   ]
+}
